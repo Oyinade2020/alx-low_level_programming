@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
- * main - Entry point
+ * main- Entry point
  *
- * Return : Akways 1 (success)
+ * Return: Akways 1 (success)
  */
 int main(void)
 {
