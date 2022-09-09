@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return : Akways 0 (success)
+ * Return : Akways 1 (success)
  */
 int main(void)
 {
