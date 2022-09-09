@@ -4,14 +4,14 @@
  *
  * Return: Always 0 (success)
  *
- * Description: omitting some alphabet
+ * Descript: Omit some alphabet
  */
 
 int main(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'a'; c <= 'z', c++)
 	{
 		if (c != 'e' && c != 'q')
 		{
