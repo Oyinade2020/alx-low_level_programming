@@ -1,27 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
- * main - Entry point
+ * main- Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
+ *
+ * Description: omitting some alphabet
  */
 
 int main(void)
-
 {
-	char low, e, q;
+	char c;
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (low != e && low != q)
-			putchar(low);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 	}
-	putchar('\n');
-
+	putchar('\n')
 	return (0);
 }
