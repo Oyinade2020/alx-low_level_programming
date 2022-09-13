@@ -4,7 +4,7 @@
  *
  * Return: 0
  *
- * Description: print_alphabet_x10.c: function to print abc 10 times
+ * Description: "print_alphabet_x10.c: function to print abc 10 times"
  *
  */
 void print_alphabet_x10(void)
