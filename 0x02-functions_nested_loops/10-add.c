@@ -1,9 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main: adds two numbers together
+ *add - adds two numbers together
  *
- * Return: Always 0
+ * @num1: The first integer to be added
+ *
+ * @num2: The second integer to be adde
+ *
+ * Return: The result of the addition
  */
 int add(int num1, int num2)
 {
