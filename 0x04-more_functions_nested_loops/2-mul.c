@@ -7,7 +7,7 @@
  *
  * @b: second number
  *
- * :Return: returns result
+ * Return: returns result
  */
 int mul(int a, int b)
 {
