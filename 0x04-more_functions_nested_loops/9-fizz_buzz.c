@@ -2,7 +2,7 @@
 /**
  * main - program that prints out a number, buzz, fizz or fizzbuzz
  *
- * Return: returns 0
+ * Return: returns the value 0
  */
 int main(void)
 {
