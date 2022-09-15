@@ -9,7 +9,7 @@
  *
  * :Return: returns result
  */
-int mul(inta, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
