@@ -3,8 +3,6 @@
 
 /**
  * print_numbers - function that prints all numbers from 0 to 9
- * 
- * @n: input integer
  *
  * Return: returns nothing
  */
