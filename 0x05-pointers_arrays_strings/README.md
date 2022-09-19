@@ -10,3 +10,4 @@ counts the number of character in a string
 8. prints out an array
 9. copy and pastes string
 100. converts string to int
+101. generates password
