@@ -3,3 +3,4 @@ This is the README file for pointers, strings and arrays
 2. function swaps two numbers
 counts the number of character in a string
 3. function prints a string
+4. prints a string in reverse
