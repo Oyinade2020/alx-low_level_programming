@@ -8,3 +8,4 @@ counts the number of character in a string
 6.Prints everyother character
 7. prints half a string
 8. prints out an array
+9. copy and pastes string
