@@ -6,3 +6,4 @@ counts the number of character in a string
 4. prints a string in reverse
 5. prints in reversr
 6.Prints everyother character
+7. prints half a string
