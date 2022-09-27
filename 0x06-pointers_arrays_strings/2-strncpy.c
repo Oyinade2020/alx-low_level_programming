@@ -6,7 +6,7 @@
  * If the length of the source string is less than the maimum byte number
  * the remainder of the destination string is filled with null bytes.
  * Works identically to the standard library function strncpy
- * @des: buffer storing the string copy
+ * @dest: buffer storing the string copy
  * @src: the source string
  * @n: max number of byte copied
  * Return: returns
