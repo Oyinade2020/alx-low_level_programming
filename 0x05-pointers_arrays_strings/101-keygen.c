@@ -10,17 +10,17 @@
  */
 int main(void)
 {
-	char c;
-	int x;
+	int i = 0, random, checksum;
 
-	srand(time(0));
-	while (x <= 2645)
+	srand(time(NULL));
+	checksum = 2772;
+	while (checksum > 122)
 	{
-		c = rand() % 128;
-
-		x += c;
-		putchar(c);
+		random = (rand() % 100);
+		printf("%c", random);
+		checksum -= random;
+		i++;
 	}
-	putchar(2772 - c);
+	printf("%c", checksum);
 	return (0);
 }
