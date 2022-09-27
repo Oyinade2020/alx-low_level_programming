@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 
 	for (s = 0; s < size; s++)
 		diagonal1 = diagonal1 + a[(size + 1) * s];
-	for ( s = 1; s < size + 1; s++)
+	for (s = 1; s < size + 1; s++)
 		diagonal2 = diagonal2 + a[(size - 1) * s];
 	printf("%d, %d\n", diagonal1, diagonal2);
 }
