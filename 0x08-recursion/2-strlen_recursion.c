@@ -6,7 +6,7 @@
  *
  * Return: 0 is success
  */
-int strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int c;
 
