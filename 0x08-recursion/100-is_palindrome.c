@@ -22,7 +22,7 @@ int _comparacadena(char *s, char *p)
  *
  * Return: return to pointer in reverse
  */
-char *_ultima(char *s);
+char *_ultima(char *s)
 {
 	if (*s != '\0')
 		return (_ultima(++s));
