@@ -29,5 +29,5 @@ int _alcuadrado(int n, int corre)
  */
 int _sqrt_recursion(int n)
 {
-	return (_alcuadrado(n, 0));
+	return (_alcuadrado(n, 1));
 }
