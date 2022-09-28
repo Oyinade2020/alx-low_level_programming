@@ -10,7 +10,7 @@ int _alcuadrado(int n, int corre)
 {
 	if (corre < 0)
 		return (-1);
-	if (corre == 0)
+	if (corre == 1)
 		return (1);
 	if (n > corre / 2)
 		return (-1);
